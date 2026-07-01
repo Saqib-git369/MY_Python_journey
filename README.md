@@ -18,12 +18,3 @@ To master Python, Data Science, Machine Learning, and Open Source.
 
 ## Progress
 
-### Day 1
-- Variables
-- Print Statements
-
-### Day 2
-- Input Output
-
-### Day 3
-- If Else
