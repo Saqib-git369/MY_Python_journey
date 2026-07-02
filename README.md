@@ -1,7 +1,6 @@
 # MY_Python_journey
-i am making my full journey to open source.
 Hi, I'm Saqib.
-
+i am making my full journey to open source.
 I am learning Python as part of my BS in Data Science at IIT Madras.
 
 ## Topics Covered
