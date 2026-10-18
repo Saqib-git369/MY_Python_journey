@@ -24,8 +24,6 @@ print(maximum, "is the maximum expense")
 print(minimum, "is the minimum expense")
 
 
-print
-
 
 
 
