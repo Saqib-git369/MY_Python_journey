@@ -1,10 +1,22 @@
-In this project "RootFinder" we will learn how can we find out the roots of
-a Quadratic Equation with the help of Python.
 
-Step1. We have to  find out the discriminant (discriminant=b**2-4*a*c) to find the nature of the roots.
-Step2:- if discriminant>0 then roots are "real and different" and we will find it 
-through the code under "if" condition (see the code).
-Step3:- if discriminant==0 then roots are "real and equal" and we will find it 
-through the code under "elif" condition (see the code).
-Step4:- if discriminant<0 then roots are "complex and different" and we will find it 
-through the code under second "elif" condition (see the code).
+# RootFinder
+
+In this project, we will learn how to find the roots of a Quadratic Equation (\(ax^2 + bx + c = 0\)) using Python.
+
+## How it Works
+
+### Step 1: Calculate the Discriminant
+We first find the discriminant to determine the nature of the roots:
+\[\text{discriminant} = b^2 - 4ac\]
+
+### Step 2: Distinct Real Roots
+If `discriminant > 0`, the roots are **real and different**. They are calculated under the `if` condition using:
+\[x = \frac{-b \pm \sqrt{\text{discriminant}}}{2a}\]
+
+### Step 3: Equal Real Roots
+If `discriminant == 0`, the roots are **real and equal**. They are calculated under the first `elif` condition using:
+\[x = \frac{-b}{2a}\]
+
+### Step 4: Complex Roots
+If `discriminant < 0`, the roots are **complex and different**. They are calculated under the `else` condition by separating the real and imaginary parts:
+\[\text{Real Part} = \frac{-b}{2a}, \quad \text{Imaginary Part} = \frac{\sqrt{-\text{discriminant}}}{2a}\]
