@@ -29,6 +29,10 @@ if enter_barcode in valid_barcodes:
         article_name="shirt"
 
     print("----------Bill Details-----------")
-
+    print(f"Customer Name: {customer_name}")
+    print(f"Customer Number: {customer_no}")
+    print(f"Article Name: {article_name}")
+    print(f"Price: {price}")
+    print(f"Quantity: {quantity}")  
     total_price=price*quantity
-    print(f"Total price for {quantity} {article_name} is: {total_price}")
+    print(f"Total price for {quantity} {article_name} is: {total_price}") 
