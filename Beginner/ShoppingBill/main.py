@@ -28,11 +28,18 @@ if enter_barcode in valid_barcodes:
         price=999
         article_name="shirt"
 
+    total_price=price*quantity
+    cgst=total_price*0.09
+    sgst=total_price*0.09
+    without_tax=total_price-cgst-sgst
+
     print("----------Bill Details-----------")
     print(f"Customer Name: {customer_name}")
     print(f"Customer Number: {customer_no}")
     print(f"Article Name: {article_name}")
     print(f"Price: {price}")
     print(f"Quantity: {quantity}")  
-    total_price=price*quantity
     print(f"Total price for {quantity} {article_name} is: {total_price}") 
+    print(f"CGST: {cgst}")
+    print(f"SGST: {sgst}")
+    print(f"Total price without tax: {without_tax}")
